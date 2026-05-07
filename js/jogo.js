@@ -36,7 +36,7 @@ function jogarNovamente() {
     }
   }
 
-  // Remove a imagem do coração da rodada anterior, se existir
+  // Remove a ilustração do coração da rodada anterior, se existir
   let imagemExistente = document.getElementById("imagem");
   if (imagemExistente) {
     imagemExistente.remove();
